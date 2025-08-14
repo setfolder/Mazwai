@@ -1,0 +1,475 @@
+﻿body {
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+}
+a {
+text-decoration: inherit;
+color: inherit;
+}
+img.logo {
+width: 53px;
+height: 54px;
+}
+.siteMenu {
+display: flex;
+position: sticky;
+top: 0;
+height: 70px;
+font-size: 14px;
+font-weight: 600;
+letter-spacing: 0.05ex;
+color: #7F7F7F;
+background-color: white;
+}
+.siteMenu a:hover {
+color: black;
+}
+.freeClips {
+margin: auto 0 auto 7px;
+}
+.about {
+margin: auto 0;
+}
+img.mglass {
+width: 28px;
+height: 23px;
+}
+.search {
+margin:  auto 0 auto auto;
+}
+.topMenu {
+display: flex;
+flex-direction: column;
+height: 550px;
+background-image: url(pic/fon.jpg);
+color: white;
+}
+.browseButton {
+display: flex;
+background-color: #22AF7D;
+width: 230px;
+height: 50px;
+border-radius: 4px;
+}
+.browseButton span {
+margin: auto;
+}
+.tags {
+color: #C3CAD0;
+margin-right: 10px;
+}
+.topMenuNav a {
+padding: 6px 8px;
+border-radius: 4px;
+}
+.topMenuNav a:hover {
+background-color: #22AF7D;
+}
+.controls {
+display: flex;
+height: 70px;
+}
+.controls h2 {
+margin:  auto  auto 20px 0;
+font-size: 120%;
+}
+.browseAll {
+margin:  auto 0 20px auto;
+font-weight: 600;
+text-decoration: underline;
+}
+.clip {
+display: flex;
+flex-direction: column;
+background-repeat: no-repeat;
+overflow: hidden;
+}
+.clip1 {
+background-image: url(pic/p1.jpg);
+}
+.clip2 {
+background-image: url(pic/p2.jpg);
+}
+.clip3 {
+background-image: url(pic/p3.jpg);
+}
+.clip4 {
+background-image: url(pic/p4.jpg);
+}
+.clip5 {
+background-image: url(pic/p5.jpg);
+}
+.clip6 {
+background-image: url(pic/p6.jpg);
+}
+.clip7 {
+background-image: url(pic/p7.jpg);
+}
+.clip8 {
+background-image: url(pic/p8.jpg);
+}
+.clip9 {
+background-image: url(pic/p9.jpg);
+}
+.topInfo, .bottomInfo {
+display: flex;
+height: 45px;
+background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(237, 237, 237, 0.3));
+color: white;
+transform: translateY(-45px);
+transition: linear 0.25s;
+}
+.topInfo span, .bottomInfo span {
+margin: auto auto auto 1em;
+}
+.bottomInfo {
+background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(237, 237, 237, 0.3));
+margin: auto 0 0 0;
+transform: translateY(45px);
+transition: linear 0.25s 0.2s;
+}
+.clip:hover .topInfo, .clip:hover .bottomInfo {
+transform: translateY(0);
+}
+.loadMore {
+display: flex;
+margin: 15px auto 30px auto;
+}
+.moreBtn {
+display: flex;
+background-color: #E8ECEE;
+font-size: 15px;
+font-weight: 600;
+width: 150px;
+height: 40px;
+margin: auto;
+border-radius: 4px;
+}
+.moreBtn span {
+margin: auto;
+}
+.aboutMazwai .content h2 {
+font-size: 34px;
+font-weight: 500;
+margin-top: 0;
+}
+.aboutMazwai .content p {
+font-size: 16px;
+line-height: 1.5;
+}
+.q span {
+margin: auto auto auto 0;
+}
+.logoBtn {
+display: flex;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: white;
+margin: auto 7px auto 15px;
+}
+.logoBtn img {
+margin: auto;
+}
+.start {
+text-decoration: underline;
+font-size: 17px;
+}
+footer {
+background-color: #E8ECEE;
+}
+footer .content {
+display: flex;
+border: solid transparent;
+border-width: 0 10px;
+margin: 0 auto;
+font-size: 14px;
+box-sizing: border-box;
+}
+.twitter {
+margin: auto 20px auto 0;
+}
+.fb {
+margin: auto;
+}
+
+@media screen and (min-width:768px)  /* Pad & Desktop */
+{
+
+.logoLnk {
+margin: auto 0 auto 45px;
+}
+.browse {
+margin: auto 20px;
+}
+.searchButton {
+margin: auto 50px auto 10px;
+cursor: pointer;
+}
+
+.tmContent {
+margin: auto auto auto 130px;
+}
+.cell {
+display: table-cell;
+width: 1em;
+}
+.tmContent h1 {
+white-space: pre;
+}
+.tmContent p {
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+}
+.tmContent ul {
+line-height: 2;
+margin-bottom: 2em;
+}
+.topMenuNav {
+display: flex;
+align-items: center;
+height: 50px;
+max-height: 50px;
+margin: auto 0 0 0;
+padding: 0 50px 0 45px;
+background-color: rgba(0, 0, 0, 0.7);
+font-size: 12px;
+overflow: hidden;
+}
+.topMenuNav .content {
+margin: 0 auto;
+}
+main {
+max-width: 1380px;
+margin: 0 auto;
+}
+.clips {
+display: grid;
+grid-auto-rows: 245px;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 20px;
+}
+.clip {
+background-size: contain;
+}
+.aboutMazwai {
+height: 540px;
+padding-top: 1px;
+background-image: url(pic/fon2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.MazPic {
+display: none;
+}
+.aboutMazwai .content {
+margin: 75px 0 0 140px;
+max-width: 550px;
+color: white;
+}
+
+.faq {
+ max-width: 1200px;
+ margin: 0 auto;
+}
+.faq h2 {
+font-size: 34px;
+font-weight: 500;
+margin-bottom: 1ex;
+}
+.q {
+display: flex;
+height: 60px;
+font-size: 20px;
+border-top:  solid 1px #CCCCCC;
+}
+img.opener {
+width: 27px;
+height: 26px;
+margin: auto 0 auto auto;
+}
+.handp {
+display: flex;
+max-width: 1400px;
+height: 90px;
+margin: 30px auto 60px auto;
+border: solid transparent;
+border-width: 0 10px;
+background-color: #22AF7D;
+color: white;
+}
+.logoBtn {
+margin: auto 7px auto 15px;
+}
+.video {
+margin: auto auto auto 0;
+font-size: 21px;
+font-weight: 600;
+}
+.start {
+margin: auto 15px auto auto;
+}
+
+footer .content {
+max-width: 1400px;
+height: 60px;
+}
+footer .content span {
+margin: auto 0;
+}
+.lnk {
+margin: auto 0 auto 25px;
+}
+.socNets {
+margin: auto 5px auto auto;
+}
+
+
+} @media screen and (max-width:767px)  /* Smartphone */ {
+
+html, body {
+overflow-x: hidden;
+}
+.logoLnk {
+margin: auto 0 auto 15px;
+}
+.freeClips { display: none;}
+.browse {
+margin: auto 20px auto 10px;
+}
+.searchButton {
+margin: auto 15px auto 10px;
+}
+.topMenu {
+height: 540px;
+}
+.tmContent { 
+margin: 15% auto auto auto;
+}
+.cell {
+margin: auto 20px;
+}
+.tmContent h1 { 
+font-size: 220%;
+font-weight: 600;
+margin-bottom: 0;
+}
+.tmContent p {
+font-size: 18px;
+font-weight: 500;
+line-height: 1.5;
+margin-bottom: -20px;
+}
+.tmContent ul {
+line-height: 2;
+margin-bottom: 1.5em;
+}
+.topMenuNav {
+display: flex;
+align-items: center;
+margin: auto 0 0 0;
+background-color: rgba(0, 0, 0, 0.7);
+font-size: 12px;
+}
+.topMenuNav .content {
+display: flex;
+height: 40px;
+margin: 0 25px;
+}
+.topMenuNav .content > * {
+margin: auto 0;
+}
+main {
+max-width: 100%;
+margin: 0 auto;
+}
+.controls {
+margin-right: 20px;
+margin-left: 20px;
+}
+.clips {
+display: grid;
+grid-auto-rows: 185px;
+grid-template-columns: 1fr;
+grid-gap: 20px;
+}
+.clip {
+background-size: cover;
+margin-right: 20px;
+margin-left: 20px;
+}
+.MazPic {
+margin-bottom: 0;
+width: 100%;
+}
+img.MazPicture {
+height: 236px;
+width: 100%;
+}
+.aboutMazwai .content {
+padding: 20px 15px;
+background-color: #E8ECEE;
+max-width: 100%;
+}
+.faq {
+max-width: 100%;
+margin: 20px;
+}
+.faq h2 {
+font-size: 34px;
+font-weight: 500;
+margin: 2ex auto 1.2ex auto;
+}
+.q {
+display: flex;
+padding: 20px 0;
+font-size: 20px;
+font-weight: 600;
+border-top:  solid 1px #CCCCCC;
+}
+img.opener {
+width: 27px;
+height: 26px;
+margin: auto 0 auto 10px;
+}
+.handp {
+display: flex;
+flex-direction: column;
+max-width: 100%;
+height: 176px;
+margin: 30px 20px 60px 20px;
+border: solid transparent;
+border-width: 0 10px;
+background-color: #22AF7D;
+color: white;
+box-sizing: border-box;
+}
+.logoBtn {
+margin: 5% auto auto auto;
+}
+.video {
+margin: auto;
+font-size: 16px;
+font-weight: 600;
+}
+.start {
+margin: auto auto 10% auto;
+}
+footer .content {
+max-width: 100%;
+flex-direction: column;
+height: 300px;
+color: #747677;
+}
+footer .content span {
+margin: 25px auto 0 auto;
+}
+.lnk {
+margin: 17px auto 0 auto;
+}
+.socNets {
+margin: auto;
+}
+
+} /* Smartphone */
