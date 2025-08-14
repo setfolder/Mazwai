@@ -1,2 +1,2 @@
 # Mazwai
-Mazwai website interface layout
+Click https://setfolder.github.io/Mazwai/ for preview.
